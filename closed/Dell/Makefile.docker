@@ -22,7 +22,8 @@ include $(CURDIR)/Makefile.build
 USE_NIGHTLY ?= 0
 
 # Used in release process, Do not modify
-PARTNER_DROP = 1
+# Jul-29-2025, Modified to disable private docker registry
+PARTNER_DROP = 0
 PARTNER_RELEASE := 5
 
 # Intranet returns zero, public network returns non zero
