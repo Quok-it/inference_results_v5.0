@@ -64,14 +64,14 @@ TRITON_OUT_DIR = $(TRITON_DIR)/out
 TRITON_PREBUILT_LIBS_DIR = prebuilt_triton_libs
 TRITON_URL = https://github.com/triton-inference-server/server
 TRITON_TEKIT_URL = ssh://git@gitlab-master.nvidia.com:12051/ftp/tekit_backend.git
-TRITON_TRTLLM_URL = https://github.com/triton-inference-server/tensorrtllm_backend.git
+TRITON_TRTLLM_URL = https://github.com/Quok-it/tensorrtllm_backend
 TRITON_HASH = r24.12
 TRITON_SERVER_COMMIT = 1efbd53
 TRITON_TRTLLM_BRANCH = main
 TRITON_TEKIT_BRANCH = release/0.17
 
 # 2/13/2025 GitHub release
-TRITON_TRTLLM_HASH ?= f51ea9dca26778ff2945344b9b1e413d5a34ebed
+TRITON_TRTLLM_HASH ?= 4e872068e41624b068146accb7e63e78e44ec0c3
 TRITON_COMMON_HASH = $(TRITON_HASH)
 TRITON_CORE_HASH = $(TRITON_HASH)
 TRITON_BACKEND_HASH = $(TRITON_HASH)
