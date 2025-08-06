@@ -113,7 +113,7 @@ TRTLLM_PUBLIC_URL = https://github.com/NVIDIA/TensorRT-LLM.git
 # main branch 02/18
 TRTLLM_HASH ?= b6cca6db0af80c997282230327c8308df7912bcf
 # 2/18/2025 GitHub release main
-TRTLLM_PUBLIC_HASH = 2ea17cdad28bed0f30e80eea5b1380726a7c6493
+TRTLLM_PUBLIC_HASH = 9952ed0189d4f34fbb3e3bbd9efc9ab2c7d4beee
 
 ifeq ($(BUILD_CONTEXT), aarch64-Orin)
     TRTLLM_PUBLIC_HASH = dev-sm87-trt101
